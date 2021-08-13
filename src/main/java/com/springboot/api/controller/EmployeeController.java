@@ -67,13 +67,13 @@ public class EmployeeController {
         if(e.isPresent()) {
             Employee currentEmployee = e.get();
 
-            String firstName = employee.getFirstname();
-            if(firstName != null) {
-                currentEmployee.setFirstname(firstName);
+            String firstname = employee.getFirstname();
+            if(firstname != null) {
+                currentEmployee.setFirstname(firstname);
             }
-            String lastName = employee.getLastname();
-            if(lastName != null) {
-                currentEmployee.setLastname(lastName);;
+            String lastname = employee.getLastname();
+            if(lastname != null) {
+                currentEmployee.setLastname(lastname);;
             }
             String mail = employee.getMail();
             if(mail != null) {
